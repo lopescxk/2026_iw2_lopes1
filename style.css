@@ -1,0 +1,123 @@
+body {
+    background-image: radial-gradient(rgb(154, 209, 241), rgb(78, 199, 247)) !important;
+}
+
+button.primeiro-b {
+    background-image: linear-gradient(to right, #fffc52, #ffe134) !important;
+    background-color: #ffe134 !important; 
+    color: black !important;
+    border: 1px solid rgb(255, 187, 0) !important;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+}
+
+button.primeiro-b:hover {
+    background-image: linear-gradient(to right, rgb(251, 255, 191), #ffef97) !important;
+    color: black !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+
+button.primeiro-b:active {
+    background-image: linear-gradient(to right, rgb(214, 225, 64), #e4c722) !important;
+    color: black !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+
+table.minha-tabela {
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    width: 60%;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    border: rgb(42, 111, 151) 1px solid !important;
+}
+
+.cima th {
+    background-color: rgb(42, 111, 151) !important;
+    color: white !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: 600;
+    border: none !important;
+}
+
+.baixo td {
+    background-color: rgba(49, 143, 198, 0.592) !important;
+    color: white !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.btn.b2 {
+    background-color: #ffe134;
+}
+
+.btn.b3 {
+    background-color: #ffe134;
+}
+
+.m-fundo1 {
+    background-image: linear-gradient(to right, 
+    rgb(255, 243, 162), rgb(255, 217, 128));
+    border-color: #e4c722;
+}
+
+.m-fundo2 {
+     background-image: linear-gradient(to right,
+    rgb(255, 243, 162), rgb(255, 217, 128));
+}
+
+.btn-danger {
+    background-color: #000000 !important;
+    border: 8px solid #000000;
+}
+
+.bf {
+    background-image: linear-gradient(to right, #ffe656, rgb(254, 254, 100)) !important;
+    border: 1px solid  #ceb31a;
+    color: #887506;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+h4 {
+    color: #9d8500;
+}
+
+.text {
+    font-size: 20px;
+    color: #9a8300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select {
+    background-color: rgba(88, 194, 255, 0.717) !important;
+    border-radius: 5px;
+    width: 130px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 62, 117);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b {
+    background-image: linear-gradient(to right, rgba(50, 179, 254, 0.717), rgba(45, 178, 255, 0.717))  !important;
+    color: rgb(0, 63, 118);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 72, 149);
+    width: 130px;
+}
